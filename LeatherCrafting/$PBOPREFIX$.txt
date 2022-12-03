@@ -1,0 +1,5 @@
+//<'LeatherCrafting.pbo' properties via Mikero's dos tools, dll version 8.06>
+product=dayz ugc;
+prefix=LeatherCrafting;
+//PboType=Arma Addon;
+//</properties>
