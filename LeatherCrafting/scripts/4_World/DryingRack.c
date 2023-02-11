@@ -125,13 +125,13 @@ class DryingFrame extends ItemBase
 		
 		RegisterNetSyncVariableBool("m_IsLocked");
 	};
-	
+	/* 
 	override void EEInit()
 	{
 		ShowSimpleSelection("Leather", 0);
 		ShowSimpleSelection("CuredLeather", 0);
 	};
-	
+	 */
 	private void ShowSimpleSelection(string selectionName, bool hide = false)
     {
         TStringArray selectionNames = new TStringArray;
@@ -276,7 +276,7 @@ class DryingFrame extends ItemBase
 		SetSynchDirty();
 		GetInventory().UnlockInventory(HIDE_INV_FROM_SCRIPT);
 		LockLeatherSlots(false);
-		TanComplete()
+		TanComplete();
 	};
 	
 	void LockLeatherSlots(bool do_lock)

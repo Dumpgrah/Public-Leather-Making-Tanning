@@ -102,14 +102,12 @@ class CfgVehicles
 		displayName = "Drying Frame";
 		descriptionShort = "Drying Rack with hooks for Drying Leather";
 		model = "LeatherCrafting\Assets\DryingRack\DryingRack.p3d";
-		animClass = "Knife";
-		isMeleeWeapon = 1;
 		rotationFlags = 0;
 		physLayer = "item_large";
 		itemBehaviour = 0;
 		heavyItem = 1;
 		weight = 1366;
-		itemSize[] = {10,10};
+		itemSize[] = {8,8};
 		fragility = 0.005;
 		repairableWithKits[] = {0};
 		simpleHiddenSelections[] = {"Leather","CuredLeather"};
@@ -132,6 +130,8 @@ class CfgVehicles
 			};
 		};
 	};
+
+	
 	class LeatherSewedHolster : PlateCarrierHolster
 	{
 		scope=2;
